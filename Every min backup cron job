@@ -7,3 +7,10 @@ cp -pvrf /etc/* /data/pk_$(date +%H:%M)
 cron entry
 
 *       *       *       *       *       sh /tmp/task.sh
+
+o/p
+
+# cd /data
+[root@vara-sys-45-a data]#
+[root@vara-sys-45-a data]# ls
+pk_04:02  pk_04:03  pk_04:04  pk_04:05  pk_04:06  pk_04:07  pk_04:08
