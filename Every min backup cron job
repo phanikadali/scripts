@@ -1,0 +1,9 @@
+
+# vi /tmp/task.sh
+#!/bin/bash
+mkdir /data/pk_$(date +%H:%M)
+cp -pvrf /etc/* /data/pk_$(date +%H:%M)
+
+cron entry
+
+*       *       *       *       *       sh /tmp/task.sh
